@@ -41,7 +41,7 @@
   </select>
   
   <select id="findAll" resultMap="BaseResultMap">
-	select ID, NAME, AGE, ADDRESS from muser
+	select ID, NAME, AGE, ADDRESS from USER
   </select>
   
   

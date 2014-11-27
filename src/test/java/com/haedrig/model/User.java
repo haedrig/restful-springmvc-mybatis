@@ -6,8 +6,6 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 import org.codehaus.jackson.annotate.JsonAutoDetect;
 
-@XmlRootElement
-@JsonAutoDetect
 public class User implements Serializable {
 
 	private static final long serialVersionUID = -8392762359358358375L;
